@@ -1,0 +1,34 @@
+.aside__container {
+	position: relative;
+	width: 100%;
+}
+
+.aside__nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 200px;
+}
+
+.aside__link {
+	text-decoration: none;
+}
+
+.aside__nav-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 16px;
+	border-left: 4px solid rgba(0,0,0,0);
+}
+
+.aside__nav-item:hover {
+	background: white;
+	border-left: 4px solid #ff9901;	
+}
+
+.active {
+	background: white;
+	border-left: 4px solid #ff9901;	
+}

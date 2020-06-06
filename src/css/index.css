@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.app__container {
+	background: #f5f4f4;
+}
+
+
+.color-darker {
+	color: #373128;
+}
+
+.color-light {
+	color: #6f6b58;
+}

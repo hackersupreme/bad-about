@@ -1,0 +1,49 @@
+.header__container {
+	position: relative;
+	width: 70%;
+	left: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px 16px 0px;
+}
+
+.header__group {
+	display: flex;
+	align-items: center;
+}
+
+.header__title {
+	margin-right: 8px;
+	padding: 0;
+	font-weight: bolder;
+	font-size: 36px;
+}
+
+
+.header__share-topic {
+	display: flex;
+	text-decoration: none;
+}
+
+.header__share-topic-icon {
+	padding: 8px;
+}
+
+
+.header__button {
+	padding: 12px 16px;
+	border-radius: 6px;
+	border: none;
+	background: #ff9901;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.header__button:hover,
+.header__button:focus {
+	background: #ffc801;
+}
