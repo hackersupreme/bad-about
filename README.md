@@ -134,11 +134,23 @@ export default {
 
 The `Main` component recieves the facts, opinions, and experiences of the product as arrays. It has an `aside` element for the in-page navigation on the left and a `main` element for the three panels on the right.
 
+```
+<main>
+	<aside title="in-page navigation">...</aside>
+	
+	<main>
+		<Panel title="Facts" />
+		<Panel title="Opinions" />
+		<Panel title="Experiences" />
+	</main>
+</main>
+```
+
 The `main` element contains three `Panel` components for the three data types. Each panel recieves its respective array of data that it turns into a list of `Article` or `ExperienceActicle` components. 
 
 The `Main` component keeps track of which `Panel` component is the active component in the page and updates it as the user scrolls. Each `Panel` component's position relative to the viewport as well as the offset from the top of the page is tracked. A ref is passed onto each `Panel` component which is used to update the element's top and bottom page offsets whenever the page scrolls.
 
-I configured the `aside` navigation to assign an "active" class to whichever `Panel` is in the viewport. 
+I configured the `aside` navigation to assign an "active" class to whichever `Panel` is most in the viewport. 
 
 ## Resources / Contact Info
 
