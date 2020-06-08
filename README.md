@@ -28,7 +28,7 @@ https://www.dropbox.com/s/tmu1c0s9rlhh0l4/bad-about.sketch?dl=0
 
 ## Live Site
 
-http://hackersupreme.com/refactoring-ui/tuple/
+http://hackersupreme.com/refactoring-ui/bad-about/
 
 ## Installation
 
